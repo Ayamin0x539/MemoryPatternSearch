@@ -14,7 +14,7 @@ as long as you know the byte array of the structure that contains such informati
 #include <string>
 using namespace std;
 
-// Actual functions bodies are defind at the end of this file.
+// Actual functions' bodies are defined at the end of this file.
 bool isPattern(const BYTE* pData, const BYTE* bMask, const char* szMask);
 DWORD patternSearch(DWORD dwAddress, DWORD dwLen, BYTE *bMask, char * szMask);
 
