@@ -14,4 +14,4 @@ You can also use this to find addresses of other things, like infinite ammo, pla
 as long as you know the byte array of the structure that contains such information.
 
 See GunzPAQ on how to actually write to these addresses once you have obtained them.
-(This algorithm can enable "auto-updating" of hacks given that you know the byte array pattern of the place you are doing your memory writing.)
+(This algorithm can enable "auto-updating" of hacks given that you know the byte array pattern of the place you are doing your memory writing.) The "mask" allows for flexibility in the byte array.
