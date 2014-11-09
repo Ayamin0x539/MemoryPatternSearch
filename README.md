@@ -4,6 +4,7 @@ MemoryPatternSearch
 Algorithm for finding an address in memory that contains a certain byte array pattern.
 
 == PATTERN SEARCH ALGORITHM ==
+
 If you have the byte array of a function you want to find in a game,
 or any program by that matter (that doesn't have anti-debugging),
 then you can use this function to find the address where that byte array occurs.
