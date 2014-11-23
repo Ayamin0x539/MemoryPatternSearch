@@ -5,6 +5,8 @@ Algorithm for finding an address in memory that contains a certain byte array pa
 
 ***Main code is in dllmain.cpp in MemoryPatternSearch directory.***
 
+Inject this dll into the target process; we do this internally. (May write an external method later, but then we'd have to read another process' memory.)
+
 == PATTERN SEARCH ALGORITHM ==
 
 If you have the byte array of a function you want to find in a game,
